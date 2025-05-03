@@ -5,22 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive admin DashBoard</title>
     <!--Materials icons cdn - guide-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
       rel="stylesheet">
       <!--Google Fonts-->
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!--css-->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <nav>
         <div class="container">
+            <!--logo-->
             <img src="./images/logo.png" alt="logo" class="logo">
+
+            <!--searchbar-->
             <div class="search-bar">
-                
+                <span class="material-icons-sharp">search</span>
+                <input type="search">
             </div>
+
+            <!--profile info-->
+            <div class="profile-area">
+                <div class="theme-btn">
+                    <span class="material-icons-sharp">light_mode</span>
+                    <span class="material-icons-sharp">dark_mode</span>
+                </div>
+
+                <div class="profile">
+                    <div class="profile-photo">
+                        <img src="./images/profile-1.jpg" alt="">
+                    </div>
+                    <h5>Somya</h5> 
+                    <span class="material-icons-sharp">expand_more</span>
+                </div> 
+
+                <button id="menu-btn">
+                    
+                </button>
+            </div>
+
         </div>
     </nav>
 </body>
